@@ -217,7 +217,7 @@ solution.
 - Amazon Elastic Block Store (Amazon EBS)
 - Amazon S3
 - Amazon S3 Glacier
-## OUT-OF-SCOPE AWS services and features and a list of
+## OUT-OF-SCOPE AWS services
 - Design and implement machine learning algorithms.
 - Implement container-based solutions.
 - Use high performance computing (HPC).
