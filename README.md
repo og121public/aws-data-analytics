@@ -102,8 +102,7 @@
 - logging and monitoring solutions to enable auditing and
     traceability.
 ##  4: Analysis and Visualization
-### 4.1: operational characteristics of an analysis and visualization
-solution.
+### 4.1: operational characteristics of an analysis and visualization solution.
 - costs associated with analysis and visualization.
 - scalability associated with analysis.
 - failover recovery and fault tolerance within the RPO and RTO.
