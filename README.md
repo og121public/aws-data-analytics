@@ -1,12 +1,13 @@
 # AWS Data Analytics domains:
 
-1. Collection
-1. Storage and Data Management
-1. Processing
-1. Analysis and Visualization
-1. Security
+### 1. Collection
+### 2. Storage and Data Management
+### 3. Processing
+### 4. Analysis and Visualization
+### 5. Security
+-   ---------------
 ##  1: Collection
-1.1: operational characteristics of the collection system.
+### 1.1: operational characteristics of the collection system.
 - data loss is within tolerance limits in the event of failures.
 - costs associated with data acquisition, transfer, and provisioning
     from various sources into the collection system (for example,
@@ -16,8 +17,7 @@
 - data persistence at various points of data capture.
 - latency characteristics of the collection system.
 
-1.2: collection system that handles the frequency, volume, and source of
-data.
+### 1.2: collection system that handles the frequency, volume, and source of data.
 - volume and flow characteristics of incoming data.
 - flow characteristics of data to potential solutions.
 - tradeoffs between various ingestion services, and take into account
@@ -27,8 +27,7 @@ data.
 - collection solution that satisfies connectivity constraints of the
     source data system.
 
-1.3: collection system that addresses the key properties of data, such
-as order, format, and compression.
+### 1.3: collection system that addresses the key properties of data, such as order, format, and compression.
 - capture data changes at the source.
 - data structure and format, compression applied, and encryption
     requirements.
@@ -37,7 +36,7 @@ as order, format, and compression.
     once processing.
 - transform and filter data during the collection process.
 ##  2: Storage and Data Management
-2.1: operational characteristics of the storage solution for analytics.
+### 2.1: operational characteristics of the storage solution for analytics.
 - appropriate storage service or services on the basis of cost
     compared to performance.
 - durability, reliability, and latency characteristics of the storage
@@ -46,7 +45,7 @@ as order, format, and compression.
     storage system.
 - appropriate storage solution to address data freshness requirements.
 
-2.2: appropriate data access and retrieval patterns.
+### 2.2: appropriate data access and retrieval patterns.
 - appropriate storage solution based on update patterns (for example,
     bulk, transactional, micro batching).
 - appropriate storage solution based on access patterns (for example,
@@ -59,7 +58,7 @@ as order, format, and compression.
     structured data.
 - appropriate storage solution to address query latency requirements.
 
-2.3: appropriate data layout, schema, structure, and format.
+### 2.3: appropriate data layout, schema, structure, and format.
 - appropriate mechanisms to address schema evolution requirements.
 - appropriate storage format for a specific task.
 - appropriate compression and encoding strategies for a chosen storage
@@ -71,24 +70,24 @@ as order, format, and compression.
 - data formatting and partitioning schemes for data-optimized
     analysis.
 
-2.4: data lifecycles based on usage patterns and business requirements.
+### 2.4: data lifecycles based on usage patterns and business requirements.
 - appropriate strategy to address data lifecycle requirements.
 - appropriate lifecycle and data retention policies to different
     storage solutions.
 
-2.5: appropriate system to catalog data and to manage metadata.
+### 2.5: appropriate system to catalog data and to manage metadata.
 - mechanisms to discover new and updated data sources.
 - mechanisms to create and update data catalogs and metadata.
 - mechanisms to search and retrieve data catalogs and metadata.
 - mechanisms to tag and classify data.
 ##  3: Processing
-3.1: appropriate data processing solution requirements.
+### 3.1: appropriate data processing solution requirements.
 - data preparation and usage requirements.
 - different types of data sources and targets.
 - performance and orchestration needs.
 - appropriate services for cost, scalability, and availability.
 
-3.2: solution to transform and prepare data for analysis.
+### 3.2: solution to transform and prepare data for analysis.
 - appropriate ETL and ELT techniques for batch workloads and real-
     time workloads.
 - failover, scaling, and replication mechanisms.
@@ -97,13 +96,13 @@ as order, format, and compression.
 - orchestrate workflows.
 - aggregate and enrich data for downstream consumption.
 
-3.3: automate and operationalize data processing solutions.
+### 3.3: automate and operationalize data processing solutions.
 - automated techniques for repeatable workflows.
 - methods to identify and recover from processing failures.
 - logging and monitoring solutions to enable auditing and
     traceability.
 ##  4: Analysis and Visualization
-4.1: operational characteristics of an analysis and visualization
+### 4.1: operational characteristics of an analysis and visualization
 solution.
 - costs associated with analysis and visualization.
 - scalability associated with analysis.
@@ -114,12 +113,12 @@ solution.
     (for example, pre-compute and consume static data, consume dynamic
     data).
 
-4.2: appropriate data analysis solution for a given scenario.
+### 4.2: appropriate data analysis solution for a given scenario.
 - compare analysis solutions.
 - right type of analysis based on the customer use case (for example,
     streaming, interactive, collaborative, operational).
 
-4.3: appropriate data visualization solution for a given scenario.
+### 4.3: appropriate data visualization solution for a given scenario.
 - output capabilities for a given analysis solution (for example,
     metrics, KPIs, tabular, API).
 - appropriate method for data delivery (for example, web, mobile,
@@ -134,7 +133,7 @@ solution.
     access).
 - integrated solution from multiple heterogeneous data sources.
 ##  5: Security
-5.1: appropriate authentication and authorization mechanisms.
+### 5.1: appropriate authentication and authorization mechanisms.
 - appropriate authentication methods (for example, federated access,
     SSO, AWS Identity and Access Management \[IAM\]).
 - appropriate authorization methods (for example, policies, ACLs,
@@ -142,7 +141,7 @@ solution.
 - appropriate access control mechanisms (for example, security groups,
     role-based controls).
 
-5.2: data protection and encryption techniques.
+### 5.2: data protection and encryption techniques.
 - data encryption and masking needs.
 - different encryption approaches (for example, server-side
     encryption, client-side encryption, AWS Key Management Service \[AWS
@@ -151,12 +150,12 @@ solution.
 - data obfuscation and masking techniques.
 - basic principles of key rotation and secrets management.
 
-5.3: data governance and compliance controls.
+### 5.3: data governance and compliance controls.
 - data governance and compliance requirements.
 - configure access, and audit logging across data analytics services.
 - appropriate controls to meet compliance requirements.
-## IN-SCOPE AWS services
-### Analytics
+## IN-SCOPE AWS services and features
+#### Analytics
 - Amazon Athena
 - Amazon CloudSearch
 - Amazon EMR
@@ -166,16 +165,16 @@ solution.
 - Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 - Amazon OpenSearch Service
 - Amazon QuickSight
-### Application Integration:
+#### Application Integration
 - Amazon MQ
 - Amazon Simple Notification Service (Amazon SNS)
 - Amazon Simple Queue Service (Amazon SQS)
 - AWS Step Functions
-### Compute:
+#### Compute
 - AWS Auto Scaling
 - Amazon EC2
 - AWS Lambda
-### Database:
+#### Database
 - Amazon DocumentDB (with MongoDB compatibility)
 - Amazon DynamoDB
 - Amazon ElastiCache
@@ -183,27 +182,27 @@ solution.
 - Amazon RDS
 - Amazon Redshift
 - Amazon Timestream
-### Frontend Web and Mobile:
+#### Frontend Web and Mobile
 - Amazon API Gateway
 - AWS AppSync
 - Amazon Simple Email Service (Amazon SES)
-### Management and Governance:
+#### Management and Governance
 - AWS CloudFormation
 - AWS CloudTrail
 - Amazon CloudWatch
 - AWS Trusted Advisor
-### Machine Learning:
+#### Machine Learning
 - Amazon SageMaker
-### Migration and Transfer:
+#### Migration and Transfer
 - AWS Database Migration Service (AWS DMS)
 - AWS DataSync
 - AWS Snowball
 - AWS Transfer Family
-### Networking and Content Delivery:
+#### Networking and Content Delivery
 - AWS Direct Connect
 - Elastic Load Balancing (ELB)
 - Amazon VPC
-### Security, Identity, and Compliance:
+#### Security, Identity, and Compliance
 - AWS Artifact
 - AWS Certificate Manager (ACM)
 - AWS CloudHSM
@@ -213,12 +212,7 @@ solution.
 - AWS Key Management Service (AWS KMS)
 - Amazon Macie
 - AWS Secrets Manager
-### Storage:
+#### Storage
 - Amazon Elastic Block Store (Amazon EBS)
 - Amazon S3
 - Amazon S3 Glacier
-## OUT-OF-SCOPE AWS services
-- Design and implement machine learning algorithms.
-- Implement container-based solutions.
-- Use high performance computing (HPC).
-- Design online transactional processing (OLTP) database solutions.
