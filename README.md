@@ -1,10 +1,10 @@
 # AWS Data Analytics domains:
 
-#### 1. Collection
-#### 2. Storage and Data Management
-#### 3. Processing
-#### 4. Analysis and Visualization
-#### 5. Security
+#### 1: Collection
+#### 2: Storage and Data Management
+#### 3: Processing
+#### 4: Analysis and Visualization
+#### 5: Security
 -   ---------------
 ##  1: Collection
 ### 1.1: operational characteristics of the collection system.
